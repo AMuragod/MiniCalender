@@ -1,0 +1,60 @@
+body
+{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+
+}
+
+.container
+{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+
+}
+
+.container:hover
+{
+    transform: scale(1.2);
+}
+
+.month_name
+{
+    margin: 0;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.day_name
+{
+    font-size: 20px;
+    color: darkgray;
+}
+
+.day_number
+{
+    font-size: 80px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.year
+{
+    margin: 20px 0;
+    font-size: 20px;
+    color: darkgray;
+    font-weight: 500;
+
+}
+
